@@ -24,11 +24,6 @@ public class HomeController {
 	private ICourseSurvice courseSurvice;
 	
 	
-	@GetMapping("/home")
-	public String home()
-	{
-		return "home page";
-	}
 	@GetMapping("/courses")
 	public List<Course> getCourses()
 	{
