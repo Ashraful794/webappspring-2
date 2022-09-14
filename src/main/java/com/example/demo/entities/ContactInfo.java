@@ -9,7 +9,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
+@JsonIgnoreProperties(value= {"handler","hibernateLazyInitializer","FieldHandler"})
 @Table(name="Contact_table")
 
 public class ContactInfo {
