@@ -25,7 +25,6 @@ public class ImageSurvice implements IImageSurvice {
 	
 	{
 		// TODO Auto-generated method stub
-
 		
 		try
 		{
