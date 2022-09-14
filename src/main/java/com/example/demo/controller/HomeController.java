@@ -42,7 +42,7 @@ public class HomeController {
 		return this.courseSurvice.addCourse(course);
 	}
 	
-	@PutMapping("/updatecourses")
+	@PutMapping("/updatecourses/{course}")
 	public Course updateCourse(@RequestBody Course course)
 	{
 		return this.courseSurvice.updateCourse(course);

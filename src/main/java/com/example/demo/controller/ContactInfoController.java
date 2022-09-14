@@ -23,7 +23,7 @@ public class ContactInfoController {
 		return this.contactInfoSurvice.addContactInfo(contactInfo);
 	}
 	
-	@PutMapping("/updateContactInfo")
+	@PutMapping("/updateContactInfo/{contactinfo}")
 	public ContactInfo updateContactInfo(@RequestBody ContactInfo contactInfo)
 	{
 		return this.contactInfoSurvice.updateContactInfo(contactInfo);

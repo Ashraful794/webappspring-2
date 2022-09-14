@@ -43,7 +43,7 @@ public class TeacherController {
 		return this.teacherSurvice.addTeacher(teacher);
 	}
 	
-	@PutMapping("/updateTeacher")
+	@PutMapping("/updateTeacher/{teacher}")
 	public Teacher updateCourse(@RequestBody Teacher teacher)
 	{
 		return this.teacherSurvice.updateTeacher(teacher);
