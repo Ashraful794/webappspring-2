@@ -19,3 +19,8 @@ And one One-to-One relationship
 Also provide the database in here myhiber.sql
 
 
+
+To upload the images have to create a folder and give the path name
+
+package com.example.demo.survices.ImageSurvice -> uploadImage function -> Path_Directory=" "; 
+
